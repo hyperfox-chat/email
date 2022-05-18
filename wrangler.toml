@@ -1,0 +1,9 @@
+name = "hyperfox-email"
+account_id = "c8526a45c47706d6c69f8d997004bd7a"
+route = "https://email.hyperfox.uk/*"
+workers_dev = true
+compatibility_date = "2021-12-19"
+kv_namespaces = []
+
+[build]
+command = "npm install && npm run build"
