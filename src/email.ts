@@ -30,6 +30,4 @@ export async function sendEmail(address: string, name: string, body: string, sub
   });
 
   await fetch(request);
-
-  return;
 }
